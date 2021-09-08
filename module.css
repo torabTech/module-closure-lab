@@ -1,0 +1,30 @@
+
+body{
+	background-color: #fefefe;
+}
+.common{
+	float: left;
+}
+.entry1{
+	width:25%;
+	margin-right: 100px;
+	margin-left:20px;
+			/*border:1px solid red; */
+}
+.report{
+	width:40%;
+	margin-left: 20px;
+	/*display: none;*/
+	/*border:2px solid blue;*/
+}
+#rep{
+	display: none;
+}
+.superfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.home{
+	vertical-align: middle;
+}
